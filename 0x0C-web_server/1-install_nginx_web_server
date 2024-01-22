@@ -2,7 +2,7 @@
 # installing and configuring nginx on a server
 
 apt-get update
-apt-get install -y nginx
+apt-get install nginx
 ufw allow 'Nginx HTTP'
 echo "Hello World!" > /var/www/html/index.html
 service nginx restart
